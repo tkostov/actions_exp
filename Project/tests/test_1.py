@@ -2,7 +2,7 @@ from package_1.main import second, some
 
 
 def test_some():
-    assert some() is None
+    assert some("abv") is None
 
 
 def test_second():
