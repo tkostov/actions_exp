@@ -6,6 +6,5 @@ def test_some():
 
 
 def test_second():
-    """test_second tests the second function
-    """
+    """test_second tests the second function"""
     assert second() is None
