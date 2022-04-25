@@ -1,17 +1,22 @@
-"""
-Main module to explain what are the expectations.
-We are going to destroi it frist for the demo.
+"""Docstring summary.
 
+Exlain yourself...
+We are going to break this first
 """
+
+
 def some(abc: str) -> None:
-    """
-    Some function description. No function passes flake8.
+    """Some _summary_.
+
+    Args:
+        abc (str): argument is printed
     """
     print(abc)
 
 
 def second() -> None:
-    """
-    Some function description. No function passes flake8.
+    """Second some summary.
+
+    Why is this function here...
     """
     print('Hello World')
