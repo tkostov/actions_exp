@@ -69,7 +69,7 @@ jobs:
 #         with:
 #           default: 3.8.6
 #           command: pip install -U pip  # upgrade pip after installing python
-      
+
 #       - name: create environment
 #         run: pyenv local 3.8.6 && python -mvenv .venv386
 
@@ -79,7 +79,7 @@ jobs:
 #       - name: Analysing the code with pylint
 #         run: |
 #           pylint `ls -R|grep .py$|xargs`
-          
+
 #       - name: setup pyenv
 #         id: pyenv_installation
 #         uses: "gabrielfalcao/pyenv-action@v7"

@@ -62,4 +62,3 @@ repos:
     #   - sqlalchemy2-stubs==0.0.2a4
     #   - types-requests==2.25.0
     exclude: ^migrations/
-
