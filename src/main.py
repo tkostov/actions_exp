@@ -1,4 +1,5 @@
-"""Docstring summary.
+"""
+Docstring summary.
 
 Exlain yourself...
 We are going to break this first
