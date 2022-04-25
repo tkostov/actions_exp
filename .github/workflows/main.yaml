@@ -39,7 +39,7 @@ jobs:
           python3 -m build
       - name: Install wheel for testing
         run: |
-          for f in dist/.whl; do pip install ${f}; done
+          for f in dist/*.whl; do pip install ${f}; done
       - name: Test with pytest
         run: |
           pytest --cov-fail-under=80
