@@ -24,5 +24,5 @@ setuptools.setup(
     ],
     package_dir={"": "Project/src"},
     packages=setuptools.find_packages(where="Project/src"),
-    python_requires="==3.7",  # Project requires 3.7
+    python_requires="==3.7.*",  # Project requires 3.7
 )
