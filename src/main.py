@@ -20,4 +20,4 @@ def second() -> None:
 
     Why is this function here...
     """
-    print('Hello World')
+    print("Hello World")
