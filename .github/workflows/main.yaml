@@ -1,5 +1,5 @@
 env:
-  code_coverage: 80 # %
+  code_coverage: 40 # required test coverage in %
 
 
 name: Test and Merge
