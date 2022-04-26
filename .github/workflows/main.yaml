@@ -107,7 +107,7 @@ jobs:
           for f in dist/*.whl; do pip install ${f}; done
       - name: Test with pytest
         run: |
-          pytest --cov=myproj=src --cov-fail-under=$code_coverage -v
+          pytest --cov-fail-under=$code_coverage -v
 
 # jobs:
 #   build:
